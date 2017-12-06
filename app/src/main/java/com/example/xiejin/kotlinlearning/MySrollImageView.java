@@ -59,7 +59,7 @@ public class MySrollImageView extends AppCompatImageView {
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         super.onSizeChanged(w, h, oldw, oldh);
         mMinDy = h;
-        Log.d("fuck", "change");
+        Log.d("fuck", "change2");
     }
 
     private Bitmap getDrawableToBitmap() {
