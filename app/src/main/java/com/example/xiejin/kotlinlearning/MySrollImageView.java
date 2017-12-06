@@ -13,6 +13,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.widget.AppCompatImageView;
 import android.support.v7.widget.PagerSnapHelper;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.widget.ImageView;
 
 import java.lang.ref.WeakReference;
@@ -58,6 +59,7 @@ public class MySrollImageView extends AppCompatImageView {
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         super.onSizeChanged(w, h, oldw, oldh);
         mMinDy = h;
+        Log.d("fuck", "change");
     }
 
     private Bitmap getDrawableToBitmap() {
