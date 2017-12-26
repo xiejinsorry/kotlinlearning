@@ -8,4 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <declare-styleable name="MyPathView">
+        <attr name="pathColor" format="color"></attr>
+    </declare-styleable>
 </resources>
