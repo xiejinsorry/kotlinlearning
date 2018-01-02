@@ -7,16 +7,33 @@
     android:layout_height="match_parent"
     tools:context="com.example.xiejin.kotlinlearning.Main4Activity">
 
-    <Button
-        android:id="@+id/btn_fuck"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:padding="10dp" />
-
-    <com.example.xiejin.kotlinlearning.widget.MyPathView4
-        android:id="@+id/mv4"
+    <com.example.xiejin.kotlinlearning.widget.FlowLayout
+        android:id="@+id/flow_test"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintLeft_toRightOf="@id/btn_fuck" />
+        app:itemBg="@color/colorAccent"
+        app:itemMargin="20dp"
+        app:padding="5dp"
+        app:textColor="@color/colorWhite"
+        app:type="textView"></com.example.xiejin.kotlinlearning.widget.FlowLayout>
+    <!--<Button-->
+    <!--android:id="@+id/btn_fuck"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:onClick="changeColor"-->
+    <!--android:padding="10dp" />-->
+
+    <!--<com.example.xiejin.kotlinlearning.widget.MyTestView2-->
+    <!--android:id="@+id/iv_fuck"-->
+    <!--android:layout_width="40dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:src="@mipmap/ic_launcher"-->
+    <!--app:layout_constraintLeft_toRightOf="@id/btn_fuck" />-->
+
+    <!--<com.example.xiejin.kotlinlearning.widget.MyPathView4-->
+    <!--android:id="@+id/mv4"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--app:layout_constraintLeft_toRightOf="@id/iv_fuck" />-->
 </android.support.constraint.ConstraintLayout>
